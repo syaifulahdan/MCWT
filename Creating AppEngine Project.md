@@ -1,4 +1,4 @@
-# # MCWT - Mobile Computing and Web Technologies
+### MCWT - Mobile Computing and Web Technologies
 
 1. Creating a new Project
    please access the following url : http://console.developer.google.com
