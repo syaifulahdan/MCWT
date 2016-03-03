@@ -81,6 +81,7 @@
       
       To upload these pages in google appengine, you must register in advance at http://appengine.google.com/, When you're able       to open new tabs in the terminal, because of previous orders not in close, if at the close eating localhost will die. Run       this command back
       
+      <pre>
      bertopeng17@bertopeng17-ThinkPad-T520:~$ <b>dev_appserver.py /home/bertopeng17/google_appengine/</b>
      bertopeng17@bertopeng17-ThinkPad-T520:~$ <b>dev_appserver.py /home/bertopeng17/google_appengine/new_project_template</b>
      INFO     2016-03-03 05:12:23,687 sdk_update_checker.py:229] Checking for updates to the SDK.
@@ -109,6 +110,6 @@
     raise BindError('Unable to bind %s:%s' % self.bind_addr)
    google.appengine.tools.devappserver2.wsgi_server.BindError: Unable to bind localhost:8080
    bertopeng17@bertopeng17-ThinkPad-T520:~$ 
-
+</pre>
 
 to complette tutorial please click url : https://cloud.google.com/appengine/docs/python/
