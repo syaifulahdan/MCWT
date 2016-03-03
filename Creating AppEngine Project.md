@@ -54,65 +54,15 @@
       export PATH="/usr/local/google_appengine:$PATH"
       </pre>
       
-      Now restart your computer and then you should be able to use <b>$ dev_appserver.py </b> command from anywhere
+      Open a terminal and run this command
       <pre>
-      bertopeng17@bertopeng17-ThinkPad-T520:~$ <b>dev_appserver.py</b>
-      usage: dev_appserver.py [-h] [-A APP_ID] [--host HOST] [--port PORT]
-                        [--admin_host ADMIN_HOST] [--admin_port ADMIN_PORT]
-                        [--auth_domain AUTH_DOMAIN] [--storage_path PATH]
-                        [--log_level {debug,info,warning,critical,error}]
-                        [--max_module_instances MAX_MODULE_INSTANCES]
-                        [--use_mtime_file_watcher [USE_MTIME_FILE_WATCHER]]
-                        [--threadsafe_override THREADSAFE_OVERRIDE]
-                        [--php_executable_path PATH]
-                        [--php_remote_debugging [PHP_REMOTE_DEBUGGING]]
-                        [--php_gae_extension_path PATH]
-                        [--php_xdebug_extension_path PATH]
-                        [--appidentity_email_address APPIDENTITY_EMAIL_ADDRESS]
-                        [--appidentity_private_key_path APPIDENTITY_PRIVATE_KEY_PATH]
-                        [--python_startup_script PYTHON_STARTUP_SCRIPT]
-                        [--python_startup_args PYTHON_STARTUP_ARGS]
-                        [--jvm_flag JVM_FLAG]
-                        [--custom_entrypoint CUSTOM_ENTRYPOINT]
-                        [--runtime RUNTIME] [--blobstore_path BLOBSTORE_PATH]
-                        [--mysql_host MYSQL_HOST] [--mysql_port MYSQL_PORT]
-                        [--mysql_user MYSQL_USER]
-                        [--mysql_password MYSQL_PASSWORD]
-                        [--mysql_socket MYSQL_SOCKET]
-                        [--datastore_path DATASTORE_PATH]
-                        [--clear_datastore [CLEAR_DATASTORE]]
-                        [--datastore_consistency_policy {consistent,random,time}]
-                        [--require_indexes [REQUIRE_INDEXES]]
-                        [--auto_id_policy {sequential,scattered}]
-                        [--logs_path LOGS_PATH]
-                        [--show_mail_body [SHOW_MAIL_BODY]]
-                        [--enable_sendmail [ENABLE_SENDMAIL]]
-                        [--smtp_host SMTP_HOST] [--smtp_port SMTP_PORT]
-                        [--smtp_user SMTP_USER]
-                        [--smtp_password SMTP_PASSWORD]
-                        [--smtp_allow_tls [SMTP_ALLOW_TLS]]
-                        [--prospective_search_path PROSPECTIVE_SEARCH_PATH]
-                        [--clear_prospective_search [CLEAR_PROSPECTIVE_SEARCH]]
-                        [--search_indexes_path SEARCH_INDEXES_PATH]
-                        [--clear_search_indexes [CLEAR_SEARCH_INDEXES]]
-                        [--enable_task_running [ENABLE_TASK_RUNNING]]
-                        [--allow_skipped_files [ALLOW_SKIPPED_FILES]]
-                        [--api_port API_PORT]
-                        [--automatic_restart [AUTOMATIC_RESTART]]
-                        [--dev_appserver_log_level {debug,info,warning,critical,error}]
-                        [--skip_sdk_update_check [SKIP_SDK_UPDATE_CHECK]]
-                        [--default_gcs_bucket_name DEFAULT_GCS_BUCKET_NAME]
-                        yaml_path [yaml_path ...]
-      dev_appserver.py: error: too few arguments
-      bertopeng17@bertopeng17-ThinkPad-T520:~$ 
-
+      bertopeng17@bertopeng17-ThinkPad-T520:~$ <b>export PATH=$PATH:/home/bertopeng17/go_appengine/</b>
+      bertopeng17@bertopeng17-ThinkPad-T520:~$ <b>export PATH=$PATH:/home/bertopeng17/go_appengine/new_project_template</b>
+      bertopeng17@bertopeng17-ThinkPad-T520:~$ <b>dev_appserver.py /home/bertopeng17/google_appengine/new_project_template</b>
       </pre>
-      error
-      
-      <b>if success !</b>
-      
+      <b>Run the command location of the folder / file sample web pages are</b>
       <pre>
-      bertopeng17@bertopeng17-ThinkPad-T520:~$ dev_appserver.py /home/bertopeng17/google_appengine/new_project_template/
+      bertopeng17@bertopeng17-ThinkPad-T520:~$ <b>dev_appserver.py /home/bertopeng17/google_appengine/new_project_template/</b>
       Allow dev_appserver to check for updates on startup? (Y/n): y
       dev_appserver will check for updates on startup.  To change this setting, edit /home/bertopeng17/.appcfg_nag
       INFO     2016-03-03 04:29:28,405 sdk_update_checker.py:229] Checking for updates to the SDK.
@@ -129,5 +79,36 @@
       
       then open the url and type <b>http: // localhost: 8080 / </b>  if true it will show a "hello world"
       
+      To upload these pages in google appengine, you must register in advance at http://appengine.google.com/, When you're able       to open new tabs in the terminal, because of previous orders not in close, if at the close eating localhost will die. Run       this command back
       
+     bertopeng17@bertopeng17-ThinkPad-T520:~$ <b>dev_appserver.py /home/bertopeng17/google_appengine/</b>
+     bertopeng17@bertopeng17-ThinkPad-T520:~$ <b>dev_appserver.py /home/bertopeng17/google_appengine/new_project_template</b>
+     INFO     2016-03-03 05:12:23,687 sdk_update_checker.py:229] Checking for updates to the SDK.
+     INFO     2016-03-03 05:12:24,140 sdk_update_checker.py:257] The SDK is up to date.
+     INFO     2016-03-03 05:12:24,220 api_server.py:205] Starting API server at: http://localhost:55478
+     INFO     2016-03-03 05:12:24,226 api_server.py:648] Applying all pending transactions and saving the datastore
+     INFO     2016-03-03 05:12:24,226 api_server.py:651] Saving search indexes
+     Traceback (most recent call last):
+      File "/usr/local/google_appengine/dev_appserver.py", line 83, in <module>
+    _run_file(__file__, globals())
+     File "/usr/local/google_appengine/dev_appserver.py", line 79, in _run_file
+    execfile(_PATHS.script_file(script_name), globals_)
+    File "/usr/local/google_appengine/google/appengine/tools/devappserver2/devappserver2.py", line 1040, in <module>
+    main()
+   File "/usr/local/google_appengine/google/appengine/tools/devappserver2/devappserver2.py", line 1033, in main
+    dev_server.start(options)
+   File "/usr/local/google_appengine/google/appengine/tools/devappserver2/devappserver2.py", line 824, in start
+    self._dispatcher.start(options.api_host, apis.port, request_data)
+  File "/usr/local/google_appengine/google/appengine/tools/devappserver2/dispatcher.py", line 194, in start
+    _module.start()
+  File "/usr/local/google_appengine/google/appengine/tools/devappserver2/module.py", line 1176, in start
+    self._balanced_module.start()
+  File "/usr/local/google_appengine/google/appengine/tools/devappserver2/wsgi_server.py", line 315, in start
+    self._start_all_fixed_port(host_ports)
+  File "/usr/local/google_appengine/google/appengine/tools/devappserver2/wsgi_server.py", line 352, in _start_all_fixed_port
+    raise BindError('Unable to bind %s:%s' % self.bind_addr)
+   google.appengine.tools.devappserver2.wsgi_server.BindError: Unable to bind localhost:8080
+   bertopeng17@bertopeng17-ThinkPad-T520:~$ 
+
+
 to complette tutorial please click url : https://cloud.google.com/appengine/docs/python/
