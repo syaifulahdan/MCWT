@@ -5,7 +5,8 @@
    please enter Projec name and project id (automaticaly) for example : 
    projec name : bertopeng17
    project id  : bertopeng17-1238  ( project id will be filled in automatically)
--------------------------------------------------------------------------------------------------------------------------
+
+
 
   Intro to Exercises Development Environment Code Repo
     -  goals : learn how to write endpoints functions
