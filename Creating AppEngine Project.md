@@ -1,6 +1,6 @@
 ### MCWT - Mobile Computing and Web Technologies
 
-    Creating a new Project
+   Creating a new Project
    please access the following url : http://console.developer.google.com
    please enter Projec name and project id (automaticaly) for example : 
    projec name : bertopeng17
