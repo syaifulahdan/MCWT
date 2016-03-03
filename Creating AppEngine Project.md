@@ -107,5 +107,27 @@
       bertopeng17@bertopeng17-ThinkPad-T520:~$ 
 
       </pre>
+      error
+      
+      <b>if success !</b>
+      
+      <pre>
+      bertopeng17@bertopeng17-ThinkPad-T520:~$ dev_appserver.py /home/bertopeng17/google_appengine/new_project_template/
+      Allow dev_appserver to check for updates on startup? (Y/n): y
+      dev_appserver will check for updates on startup.  To change this setting, edit /home/bertopeng17/.appcfg_nag
+      INFO     2016-03-03 04:29:28,405 sdk_update_checker.py:229] Checking for updates to the SDK.
+      INFO     2016-03-03 04:29:28,944 sdk_update_checker.py:257] The SDK is up to date.
+      WARNING  2016-03-03 04:29:29,457 simple_search_stub.py:1126] Could not read search indexes from 
+      /tmp/appengine.new-project-template.bertopeng17/search_indexes
+      INFO     2016-03-03 04:29:29,461 api_server.py:205] Starting API server at: http://localhost:45827
+      INFO     2016-03-03 04:29:29,475 dispatcher.py:197] Starting module "default" running at: http://localhost:8080
+      INFO     2016-03-03 04:29:29,478 admin_server.py:116] Starting admin server at: http://localhost:8000
+      INFO     2016-03-03 04:29:38,370 module.py:787] default: "GET / HTTP/1.1" 200 12
+      INFO     2016-03-03 04:29:38,449 module.py:787] default: "GET /favicon.ico HTTP/1.1" 200 8348
+      INFO     2016-03-03 04:29:38,514 module.py:787] default: "GET /favicon.ico HTTP/1.1" 304 -
+      </pre>
+      
+      then open the url and type <b>http: // localhost: 8080 / </b>  if true it will show a "hello world"
+      
       
 to complette tutorial please click url : https://cloud.google.com/appengine/docs/python/
