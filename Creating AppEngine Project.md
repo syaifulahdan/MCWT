@@ -1,12 +1,13 @@
 ### MCWT - Mobile Computing and Web Technologies
 
-1. Creating a new Project
+    Creating a new Project
    please access the following url : http://console.developer.google.com
    please enter Projec name and project id (automaticaly) for example : 
-    projec name : bertopeng17
-    project id  : bertopeng17-1238  ( project id will be filled in automatically)
+   projec name : bertopeng17
+   project id  : bertopeng17-1238  ( project id will be filled in automatically)
+-------------------------------------------------------------------------------------------------------------------------
 
-2.  Intro to Exercises Development Environment Code Repo
+  Intro to Exercises Development Environment Code Repo
     -  goals : learn how to write endpoints functions
     -  Use the APIs Explorer
     -  get started started with the app confrence central app
