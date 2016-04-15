@@ -43,7 +43,7 @@
 2.  then use the command to <b> . activate </b> the environment. activation on your terminal
     
     <pre>
-    bertopeng17@bertopeng17-ThinkPad-T520:~/Desktop/python1/bin$ <b>. activate<?b>
+    bertopeng17@bertopeng17-ThinkPad-T520:~/Desktop/python1/bin$ <b>. activate</b>
     (python1) bertopeng17@bertopeng17-ThinkPad-T520:~/Desktop/python1/bin$ python
     Python 2.7.6 (default, Jun 22 2015, 18:00:18) 
     [GCC 4.8.2] on linux2
@@ -69,6 +69,6 @@ when the environment python1 has been activated then whenever we use python, the
     [GCC 4.8.2] on linux2
     Type "help", "copyright", "credits" or "license" for more information.
     >>> 
-
     </pre>
 
+    ![alt img](https://github.com/syaifulahdan/MCWT/blob/master/Python-virtualenv/image/Screenshot%20from%202016-04-16%2003:33:05.png)
