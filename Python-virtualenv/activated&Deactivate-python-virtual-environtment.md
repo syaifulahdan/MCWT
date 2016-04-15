@@ -39,3 +39,19 @@ how to activate the virtual environment that we created
     activate.csh   easy_install      pip2    python2    wheel
     activate.fish  easy_install-2.7  pip2.7  python2.7
     </pre>
+2.  then use the command to <b> . activate </b> the environment. activation on your terminal
+    
+    <pre>
+    bertopeng17@bertopeng17-ThinkPad-T520:~/Desktop/python1/bin$ <b>. activate<?b>
+    (python1) bertopeng17@bertopeng17-ThinkPad-T520:~/Desktop/python1/bin$ python
+    Python 2.7.6 (default, Jun 22 2015, 18:00:18) 
+    [GCC 4.8.2] on linux2
+    Type "help", "copyright", "credits" or "license" for more information.
+    >>> 
+    </pre>
+    
+    ![alt img](https://github.com/syaifulahdan/MCWT/blob/master/Python-virtualenv/image/Screenshot%20from%202016-04-16%2003:21:24.png)
+
+
+
+3.  
