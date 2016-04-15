@@ -5,11 +5,36 @@ how to activate the virtual environment that we created
 
     <pre>
     bertopeng17@bertopeng17-ThinkPad-T520:~$ <b>cd Desktop/</b>
+    </pre>
+    
+    then
+    
+    <pre>
     bertopeng17@bertopeng17-ThinkPad-T520:~/Desktop$ <b>cd python1</b>
+    </pre>
+    
+    then
+    
+    <pre>
     bertopeng17@bertopeng17-ThinkPad-T520:~/Desktop/python1$ <b>ls</b>
+    </pre>
+    
+    <pre>
     bin  include  lib  local  pip-selfcheck.json
+    </pre>
+    
+    then
+    <pre>
     bertopeng17@bertopeng17-ThinkPad-T520:~/Desktop/python1$ <b>cd bin/</b>
+    </pre>
+    
+    then
+    
+    <pre>
     bertopeng17@bertopeng17-ThinkPad-T520:~/Desktop/python1/bin$ <b>ls</b>
+    </pre>
+  
+    <pre>
     <b>activate</b>       activate_this.py  pip     python     python-config
     activate.csh   easy_install      pip2    python2    wheel
     activate.fish  easy_install-2.7  pip2.7  python2.7
