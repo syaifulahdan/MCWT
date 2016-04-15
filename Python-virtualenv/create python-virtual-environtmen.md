@@ -19,4 +19,4 @@ how to create a python environment that is isolated or local environment, making
 3. Finish , finished environment already created python 1
   ![alt img](https://github.com/syaifulahdan/MCWT/blob/master/Python-virtualenv/image/Screenshot%20from%202016-04-16%2002:55:07.png)
 
-![alt img](https://github.com/syaifulahdan/MCWT/blob/master/Python-virtualenv/image/Screenshot%20from%202016-04-16%2002:55:21.png)
+  ![alt img](https://github.com/syaifulahdan/MCWT/blob/master/Python-virtualenv/image/Screenshot%20from%202016-04-16%2002:55:21.png)
