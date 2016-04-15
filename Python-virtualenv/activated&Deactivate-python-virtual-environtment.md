@@ -1,4 +1,5 @@
-#### a. how to activate the virtual environment that we created 
+#### a. How to activate the virtual environment that we created 
+
 
 1.  earlier is <b>python1</b>, how is the entrance to the terminal, go to the <b>desktop</b> environment > <b>python1</b>
 2.  look in <b>Desktop/python1<?b> then go to the <b>python1/bin$</b> directory and view its contents with the <b>ls</b> command
@@ -53,5 +54,21 @@
     ![alt img](https://github.com/syaifulahdan/MCWT/blob/master/Python-virtualenv/image/Screenshot%20from%202016-04-16%2003:21:24.png)
 
 
+#### b. How to deactivate the virtual environment 
+when the environment python1 has been activated then whenever we use python, then active is python1 environment, if we change the environment more envirotmen python1 environment must be deactivated, by using the <b>deactivate<b> command
+    
 
-3.  
+1.  open and active terminal to the desktop, then
+    <pre>
+    (python1) bertopeng17@bertopeng17-ThinkPad-T520:~$ <b>cd Desktop</b>
+
+    (python1) bertopeng17@bertopeng17-ThinkPad-T520:~/Desktop$ <b>deactivate</b>
+    
+    bertopeng17@bertopeng17-ThinkPad-T520:~/Desktop$ <b>python</b>
+    Python 2.7.6 (default, Jun 22 2015, 18:00:18) 
+    [GCC 4.8.2] on linux2
+    Type "help", "copyright", "credits" or "license" for more information.
+    >>> 
+
+    </pre>
+
