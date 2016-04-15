@@ -4,4 +4,4 @@ The basic problem being addressed is one of dependencies and versions, and indir
 
 1. Install Python Virtual ENV | [[read]](https://github.com/syaifulahdan/MCWT/blob/master/Python-virtualenv/install-python-virtualenv.md) | [[video]](https://www.youtube.com/watch?v=hWT7ljXo_yE)
 2. Create Python Virtual Environtmen | [[read]] (https://github.com/syaifulahdan/MCWT/blob/master/Python-virtualenv/create%20python-virtual-environtmen.md) | [[video]](https://www.youtube.com/watch?v=JtT-M8hf3zk)
-3. Activated Python Virtual Environtmen | [[read]] [[video]](https://www.youtube.com/watch?v=JtT-M8hf3zk)
+3. Activated and deactivated Python Virtual Environtmen | [[read]](https://github.com/syaifulahdan/MCWT/blob/master/Python-virtualenv/activated%26Deactivate-python-virtual-environtment.md) |  [[video]](https://www.youtube.com/watch?v=JtT-M8hf3zk)
