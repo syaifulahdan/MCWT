@@ -76,4 +76,4 @@ Step by step install python-env
     </pre>
     
     ![alt img](https://github.com/syaifulahdan/MCWT/blob/master/Python-virtualenv/image/Screenshot%20from%202016-04-16%2002:30:59.png)    
-5.  
+5.  Finish !
