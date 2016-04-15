@@ -56,7 +56,7 @@
 
 #### b. How to deactivate the virtual environment 
 
-    when the environment python1 has been activated then whenever we use python, then active is python1 environment, if we change the environment more envirotmen python1 environment must be deactivated, by using the <b>deactivate</b> command
+when the environment python1 has been activated then whenever we use python, then active is python1 environment, if we change the environment more envirotmen python1 environment must be deactivated, by using the <b>deactivate</b> command
     
 
 1.  open and active terminal to the desktop, then
