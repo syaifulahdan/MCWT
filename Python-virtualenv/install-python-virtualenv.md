@@ -73,7 +73,7 @@ Step by step install python-env
     Processing dependencies for virtualenv==15.0.1
     Finished processing dependencies for virtualenv==15.0.1
     bertopeng17@bertopeng17-ThinkPad-T520:~/Downloads/virtualenv-15.0.1$ ls
-
     </pre>
     
+    ![alt img](https://github.com/syaifulahdan/MCWT/blob/master/Python-virtualenv/image/Screenshot%20from%202016-04-16%2002:30:59.png)    
 5.  
