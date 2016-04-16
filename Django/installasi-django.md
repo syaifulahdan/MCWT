@@ -30,5 +30,6 @@ we will install in the virtual environment python django 1, which is a virtual e
    Type "help", "copyright", "credits" or "license" for more information.
    >>> <b>import django</b>
    >>> 
-   ![alt img] (https://github.com/syaifulahdan/MCWT/blob/master/Django/image/Screenshot%20from%202016-04-16%2015:17:20.png)
    </pre>
+   ![alt img] (https://github.com/syaifulahdan/MCWT/blob/master/Django/image/Screenshot%20from%202016-04-16%2015:17:20.png)
+   
