@@ -12,5 +12,6 @@ we will install in the virtual environment python django 1, which is a virtual e
     bertopeng17@bertopeng17-ThinkPad-T520:~/Desktop/python1$ <b>pip install django</b>
    </pre>
 
+   ![alt img] (https://github.com/syaifulahdan/MCWT/blob/master/Django/image/Screenshot%20from%202016-04-16%2015:04:34.png)
 
 3. how to test django
