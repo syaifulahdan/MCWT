@@ -13,4 +13,10 @@ project that we will create will we put into the virtual environment python1, do
   (python1) bertopeng17@bertopeng17-ThinkPad-T520:~/Desktop/python1$ <b>django-admin.py startproject telematika</b>
   (python1)  bertopeng17@bertopeng17-ThinkPad-T520:~/Desktop/python1$ 
   </pre>
-3. 
+3. Look in the directory python1 there will be a new project which we add is
+
+  ![alt img] (https://github.com/syaifulahdan/MCWT/blob/master/Django/image/Screenshot%20from%202016-04-16%2015:59:59.png)
+  
+  ![alt img] (https://github.com/syaifulahdan/MCWT/blob/master/Django/image/Screenshot%20from%202016-04-16%2016:00:27.png)
+  
+  ![alt img] (https://github.com/syaifulahdan/MCWT/blob/master/Django/image/Screenshot%20from%202016-04-16%2016:00:52.png)
