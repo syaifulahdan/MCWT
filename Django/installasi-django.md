@@ -19,4 +19,16 @@ we will install in the virtual environment python django 1, which is a virtual e
    django installed is version 1.9.5
    
    
-3. how to test django
+### how to test django
+
+1. run python console , The type <b>import django</b> in dirketori outside or inside  (if no error means that we are successfully installed django, if there is some issue then it would appear) 
+
+   <pre>
+   (python1) bertopeng17@bertopeng17-ThinkPad-T520:~/Desktop/python1$ python
+   Python 2.7.6 (default, Jun 22 2015, 18:00:18) 
+   [GCC 4.8.2] on linux2
+   Type "help", "copyright", "credits" or "license" for more information.
+   >>> <b>import django</b>
+   >>> 
+
+   </pre>
