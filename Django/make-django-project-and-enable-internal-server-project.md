@@ -23,4 +23,4 @@ project that we will create will we put into the virtual environment python1, do
 
 B.  activated the internal server project , project name : <b>telematika</b>
 
-1. go to the directory project we have created is Telematika, Use the <b> python manage.py runserver </ b>
+1. go to the directory project we have created is Telematika, Use the <b>python manage.py runserver </b>
