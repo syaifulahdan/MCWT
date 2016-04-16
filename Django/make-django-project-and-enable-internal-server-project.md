@@ -9,3 +9,8 @@ project that we will create will we put into the virtual environment python1, do
   (python1) bertopeng17@bertopeng17-ThinkPad-T520:~/Desktop/python1$
   </pre>
 2. The first thing we do is run the command <b>django-admin.py startproject</b> [project name], to create a project, for example:
+  <pre>
+  (python1) bertopeng17@bertopeng17-ThinkPad-T520:~/Desktop/python1$ <b>django-admin.py startproject telematika</b>
+  (python1)  bertopeng17@bertopeng17-ThinkPad-T520:~/Desktop/python1$ 
+  </pre>
+3. 
