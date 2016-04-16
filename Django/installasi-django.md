@@ -13,5 +13,8 @@ we will install in the virtual environment python django 1, which is a virtual e
    </pre>
 
    ![alt img] (https://github.com/syaifulahdan/MCWT/blob/master/Django/image/Screenshot%20from%202016-04-16%2015:04:34.png)
-
+   
+   django installed is version 1.9.5
+   
+   
 3. how to test django
