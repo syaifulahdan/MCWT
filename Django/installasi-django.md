@@ -1,3 +1,6 @@
+![alt img](https://github.com/syaifulahdan/MCWT/blob/master/Django/image/B_rnHp0UwAAPoo1-1.jpg)
+
+
 ### Install Django
 
 we will install in the virtual environment python django 1, which is a virtual environment that we created earlier
