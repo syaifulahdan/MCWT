@@ -13,7 +13,30 @@ project that we will create will we put into the virtual environment python1, do
   (python1) bertopeng17@bertopeng17-ThinkPad-T520:~/Desktop/python1$ <b>django-admin.py startproject telematika</b>
   (python1) bertopeng17@bertopeng17-ThinkPad-T520:~/Desktop/python1$ 
   </pre>
-3. Look in the directory python1 there will be a new project which we add is
+
+3. To bootstrap the database (this uses SQLite by default) on more recent versions of Django, you can type
+   <pre>python manage.py migrate</pre>
+
+    <pre>
+    (python1) bertopeng17@bertopeng17-ThinkPad-T520:~/Desktop/python1/telematika$ python manage.py migrate
+     Operations to perform:
+    Apply all migrations: admin, contenttypes, auth, sessions
+    Running migrations:
+    Rendering model states... DONE
+    Applying contenttypes.0001_initial... OK
+    Applying auth.0001_initial... OK
+    Applying admin.0001_initial... OK
+    Applying admin.0002_logentry_remove_auto_add... OK
+    Applying contenttypes.0002_remove_content_type_name... OK
+    Applying auth.0002_alter_permission_name_max_length... OK
+    Applying auth.0003_alter_user_email_max_length... OK
+    Applying auth.0004_alter_user_username_opts... OK
+    Applying auth.0005_alter_user_last_login_null... OK
+    Applying auth.0006_require_contenttypes_0002... OK
+    Applying auth.0007_alter_validators_add_error_messages... OK
+    Applying sessions.0001_initial... OK
+    </pre>
+4. Look in the directory python1 there will be a new project which we add is
 
   ![alt img] (https://github.com/syaifulahdan/MCWT/blob/master/Django/image/Screenshot%20from%202016-04-16%2015:59:59.png)
   
