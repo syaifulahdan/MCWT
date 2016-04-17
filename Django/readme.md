@@ -4,4 +4,5 @@
 
 1. Installasi Django | [[read]](https://github.com/syaifulahdan/MCWT/blob/master/Django/installasi-django.md) | [[video]](https://www.youtube.com/watch?v=RhYBYguxpEk#t=8.285846)
 2. Make django project and enable server | [[read]](https://github.com/syaifulahdan/MCWT/blob/master/Django/make-django-project-and-enable-internal-server-project.md) | [[video]](https://www.youtube.com/watch?v=sGs29NpnL7U) 
-
+3. Visit-your-servers-IP-address
+[[read]](https://github.com/syaifulahdan/MCWT/blob/master/Django/Visit-your-servers-IP-address.md) | [[video]](https://www.youtube.com/watch?v=sGs29NpnL7U) 
