@@ -1,4 +1,4 @@
-![alt img](https://github.com/syaifulahdan/MCWT/blob/master/Django/image/B_rnHp0UwAAPoo1-1.jpg)
+<P=center>![alt img](https://github.com/syaifulahdan/MCWT/blob/master/Django/image/B_rnHp0UwAAPoo1-1.jpg)</p=center>
 
 
 ### Install Django
