@@ -36,6 +36,21 @@ project that we will create will we put into the virtual environment python1, do
     Applying auth.0007_alter_validators_add_error_messages... OK
     Applying sessions.0001_initial... OK
     </pre>
+    
+4. You will be asked to create an administrative user as part of this process. Select a username, email address, and password for the user. If you used the migrate command above, you'll need to create the administrative user manually. You can create an administrative user by typing: 
+<pre>python manage.py createsuperuser</pre>
+<pre>
+(python1) bertopeng17@bertopeng17-ThinkPad-T520:~/Desktop/python1/telematika$ <b>python manage.py createsuperuser</b>
+Username (leave blank to use 'bertopeng17'): <b>telematika</b>
+Email address: <b>syaifulahdan@gmail.com</b>
+Password: <b>**********</b>
+Password (again): 
+Superuser created successfully.
+(python1) bertopeng17@bertopeng17-ThinkPad-T520:~/Desktop/python1/telematika$ 
+</pre>
+
+5. 
+
 4. Look in the directory python1 there will be a new project which we add is
 
   ![alt img] (https://github.com/syaifulahdan/MCWT/blob/master/Django/image/Screenshot%20from%202016-04-16%2015:59:59.png)
