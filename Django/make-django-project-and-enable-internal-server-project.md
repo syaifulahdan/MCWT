@@ -50,7 +50,7 @@ Superuser created successfully.
 (python1) bertopeng17@bertopeng17-ThinkPad-T520:~/Desktop/python1/telematika$ 
 </pre>
 ![alt img](https://github.com/syaifulahdan/MCWT/blob/master/Django/image/Screenshot%20from%202016-04-17%2015:05:31.png)
-5. 
+
 
 4. Look in the directory python1 there will be a new project which we add is
 
@@ -68,5 +68,5 @@ B.  activated the internal server project , project name : <b>telematika</b>
 
   ![alt img](https://github.com/syaifulahdan/MCWT/blob/master/Django/image/Screenshot%20from%202016-04-17%2015:13:09.png)
 
-2. 2. 
+
 
