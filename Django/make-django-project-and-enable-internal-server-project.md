@@ -62,4 +62,11 @@ Superuser created successfully.
 
 B.  activated the internal server project , project name : <b>telematika</b>
 
-1. go to the directory project we have created is Telematika, Use the <b>python manage.py runserver </b>
+1. go to the directory project we have created is Telematika, Use the <b>python manage.py runserver </b> 
+   
+  Once you have a user, you can start up the Django development server to see what a fresh Django project looks like. You should only use this for development purposes. Run:  <b>python manage.py runserver 0.0.0.0:8000</b>
+
+  ![alt img](https://github.com/syaifulahdan/MCWT/blob/master/Django/image/Screenshot%20from%202016-04-17%2015:13:09.png)
+
+2. 2. 
+
