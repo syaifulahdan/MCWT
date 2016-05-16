@@ -1,0 +1,45 @@
+<!-- Navigation bar -->
+<nav class="navbar" role="navigation">
+  <div class="container-fluid">
+
+    <!-- Logo -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mainNavBar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+
+    <!-- Menu items -->
+    <div class="collapse navbar-collapse" id="mainNavBar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="/"><span class="glyphicon glyphicon-homex"></span> Halaman Depan</a></li>
+        {% if request.user.is_authenticated %}
+          <li><a href="{% url 'courses' %}"><span class="glyphicon glyphicon-educationx"></span> Daftar Matakuliah</a></li>
+        {% else %}
+          <li><a href="/"><span class="glyphicon glyphicon-educationx"></span> Daftar Matakuliah</a></li>
+        {% endif %}
+        <li><a href="{% url 'about' %}"><span class="glyphicon glyphicon-info-signx"></span> Tentang Tugas</a></li> 
+       
+        <!--<li><a href="{% url 'contact' %}"><span class="glyphicon glyphicon-earphone"></span> Contact</a></li>
+        {% if request.user.is_authenticated %}-->
+        
+         <!-- <li><a href="{% url 'forum' %}"><span class="glyphicon glyphicon glyphicon-comment"></span> Diskusi</a></li>
+        {% endif %} -->
+      </ul>
+
+      <!-- Right align -->
+      <ul class="nav navbar-nav navbar-right">
+        {% if request.user.is_authenticated %}
+          <li><a href="{% url 'profile' %}"><span class="glyphicon glyphicon-userx"></span> {{ user.get_username }}</a>
+          </li>
+          <li><a href="/accounts/logout"><span class="glyphicon glyphicon-log-outx"></span> Keluar</a></li>
+        {% else %}
+          <li><a href="/accounts/register"><span class="glyphicon glyphicon-plusx"></span> Pendaftaran</a></li>
+          <li><a href="/accounts/login"><span class="glyphicon glyphicon-userx"></span> Masuk</a></li>
+        {% endif %}
+      </ul>
+    </div>
+  </div>
+</nav>

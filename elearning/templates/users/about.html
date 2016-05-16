@@ -1,0 +1,73 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+
+{% block content %}
+  <!-- About core css -->
+  <link href="{% static "css/about.css" %}" rel="stylesheet"/>
+  {% include 'breadcrumb.html' %}
+
+
+  <div class="about_bottom">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 about_left">
+          <h3 class="m_2">Tentang Tugas</h3>
+            <ul class="about_grid1 about_box">
+             <h5><a href="#">Tentang Tugas</a></h5>
+              <p>ini adalah Proyek Akhir  matakuliah KBTW - Komputasi Bergerak dan Teknologi Web, project akhir yang saya bahas tentang E-learning, semoga dengan tugas ini dapat berbagi pengalaman dan sharing pengetahuan tentang bagaimana membangun web elearning berbasis python dengan menggunakan framework django </p>
+           </ul>
+            
+
+          <ul class="about_grid1 about_box">
+              <h5><a href="#">Fasilitas Apa Saja Yang Ada di Web ini</a></h5>
+              <p>di website ini memiliki fasilitas mulai dari Pendaftaran user, Proses pembuatan matakuliah, Upload Recource teks, video dan berkas</p>
+           </ul>
+          
+          <ul class="about_grid1 about_box">
+              <h5><a href="#">Apa saja yang dibutuhkan </a></h5>
+              <p>: Virtual Environtmen, Python, Django 1.9 Framework, Bootstrap-css, jquery-2, Sqlman database</p>
+           </ul>
+          
+        </div>
+
+        <div class="col-md-4">
+          <h3 class="m_2">Bagaimana Cara Menggunakannya</h3>
+          <div class="list styled custom-list">
+            <ul>
+              <li><span class="dropcap">1.</span>
+                <h5><a href="#">Login Sebagai Mahasiswa</a></h5>
+                <p> gunakan user : mahasiswa, password : mahasiswa ( Login sebagai mahasiswa dapat mengakses mata kuliah yang sudah disajikan ke oleh dosen, Klik Daftar Matakuliah)
+                </p>
+              </li>
+              <li><span class="dropcap">2.</span>
+                <h5><a href="#">Login Sebagai Dosen.</a></h5>
+                <p>gunakan user : Dosen, password : dosen ( untuk membuat matakuliah pilih > DAFTAR MATAKULIAH . KEMUDIAN KLIK MENU DOSEN)
+                </p>
+              </li>
+              
+              <li><span class="dropcap">3.</span>
+                <h5><a href="#">Referensi .</a></h5>
+                <p> untuk membangun website ini pengulis menggunakan buku "Django By Example : Antonio Mele page. 337", sumber youtube : https://www.youtube.com/watch?v=7rgph8en0Jc&list=PLyiXK9gbG3lAxiCF5un550pvckm38VGfP
+                
+                </p>
+              </li>
+              
+              
+              
+              
+              
+              
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+{% endblock %}
